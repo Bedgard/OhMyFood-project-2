@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Mon projet Openclassrooms 3 Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bedgard/ohmyfood.git"
+  },
+  "author": "Benjamin Edgard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bedgard/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Bedgard/ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}

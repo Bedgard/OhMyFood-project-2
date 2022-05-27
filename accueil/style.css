@@ -12,6 +12,13 @@ body {
     font-family: "roboto", sans-serif;
 }
 
+main {
+
+    padding: 0 1rem;
+}
+
+/*HEADER*/
+
 header {
     font-family: 'Shrikhand', cursive;
     text-align: center;
@@ -19,6 +26,8 @@ header {
     padding: 0.3rem;
     position: relative;
 }
+
+/* CITY */
 
 main .city {
     display: flex;
@@ -66,6 +75,7 @@ main .city i {
     background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
     transition: transform 200ms;
     margin-top: 1rem;
+
 }
 
 .explorer button:hover {
@@ -73,3 +83,34 @@ main .city i {
     cursor: pointer;
     opacity: 0.9;
 }
+
+/* TUTO */
+
+.tuto ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media (max-width:800px) {
+    .tuto ol {
+        flex-direction: column;
+
+    }
+}
+
+.tuto li {
+    background-color: #f6f6f6;
+    padding: 1rem 2rem;
+    border: 1px solid red;
+    flex-grow: 1;
+    border-radius: 1rem;
+    box-shadow: -2px 1px 8px -3px #000000;
+}
+
+.tuto li:hover {
+    transform: scale(1.02);
+}
+
+/*J'ai fini le 11 mais il y a des éléments SASS à ajouter */
+/* 08 probleme avec l'installation de SASS et de gitignore
