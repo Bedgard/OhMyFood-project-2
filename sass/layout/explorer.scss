@@ -1,5 +1,6 @@
 /* EXPLORER */
 @use "./utils/box-shadow";
+@use "./utils/zoom";
 
 .explorer {
   text-align: center;
@@ -28,7 +29,7 @@
   }
 
   & button:hover {
-    transform: scale(1.02);
+    @include zoom.zoom;
     cursor: pointer;
     opacity: 0.9;
 
