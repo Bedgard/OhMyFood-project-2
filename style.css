@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&family=Shrikhand&display=swap");
 *,
@@ -12,10 +11,6 @@ body {
   font-family: "roboto", sans-serif;
 }
 
-main {
-  padding: 0 1rem;
-}
-
 /*HEADER*/
 header {
   font-family: "Shrikhand", cursive;
@@ -25,8 +20,12 @@ header {
   position: relative;
 }
 
+main {
+  padding: 0 1rem;
+}
+
 /* CITY */
-main .city {
+.city {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,8 +34,7 @@ main .city {
   text-align: center;
   padding: 0.5rem;
 }
-
-main .city i {
+.city i {
   font-size: 1.5rem;
 }
 
@@ -44,20 +42,16 @@ main .city i {
 .explorer {
   text-align: center;
 }
-
 .explorer h2 {
   margin-top: 2rem;
   font-size: 2rem;
 }
-
 .explorer p {
   font-size: 1rem;
 }
-
 .explorer button {
   border: none;
   border-radius: 2rem;
-  box-shadow: -2px 1px 8px -3px #000000;
   color: white;
   font-weight: bold;
   font-size: 1.5rem;
@@ -65,8 +59,8 @@ main .city i {
   background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   transition: transform 200ms;
   margin-top: 1rem;
+  box-shadow: 2px 1px 8px -3px #000000;
 }
-
 .explorer button:hover {
   transform: scale(1.02);
   cursor: pointer;
@@ -79,7 +73,6 @@ main .city i {
   flex-wrap: wrap;
   gap: 1rem;
 }
-
 @media (max-width: 800px) {
   .tuto ol {
     flex-direction: column;
@@ -91,15 +84,10 @@ main .city i {
   border: 1px solid red;
   flex-grow: 1;
   border-radius: 1rem;
-  box-shadow: -2px 1px 8px -3px #000000;
+  box-shadow: 2px 1px 8px -3px #000000;
 }
-
 .tuto li:hover {
   transform: scale(1.02);
 }
 
-div {
-  background-color: blue;
-}
-
-/*J'ai fini le 11 mais il y a des éléments SASS à ajouter *//*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
