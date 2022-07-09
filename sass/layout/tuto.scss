@@ -1,16 +1,25 @@
 /* TUTO */
-@use "../layout/utils/box-shadow";
-@use "./utils/zoom";
+@use "../layout/utils/mixins";
 @use "./utils/variables";
 @use "./utils/colors";
 
 .tuto {
   counter-reset: steps;
+  margin-bottom: 4rem;
+
+
+  & h2 {
+    margin: 1rem;
+
+  }
 
   & ol {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    padding: 0 1.9rem;
+
+
 
     @media (max-width: 1000px) {
       flex-direction: column;
@@ -20,7 +29,12 @@
 
   & li {
 
+
     position: relative;
+    font-weight: 500;
+
+
+
 
 
     &::before {
@@ -34,8 +48,9 @@
       place-items: center;
       border-radius: 50%;
       position: absolute;
-      bottom: variables.$tuto-bullet-height;
+      top: 50%;
       left: -1 * variables.$tuto-bullet-height;
+      transform: translateY(-50%);
 
 
     }
@@ -45,16 +60,34 @@
     padding: 1.5rem 2rem;
     flex-grow: 1;
     border-radius: 1rem;
-    @include box-shadow.base-shadow;
+    @include mixins.base-shadow;
+
+
 
     &:hover {
-      @include zoom.zoom;
+      @include mixins.zoom;
+      background-color: #F5EDFF;
+
+      i::before {
+        color: colors.$purple;
+      }
+
+
+
     }
+
+
 
     & i.fas {
       margin-right: 1rem;
       color: colors.$lightgrey;
       font-size: 1.5rem;
+
     }
+
+
+
   }
+
+
 }

@@ -1,0 +1,150 @@
+@use "./utils/variables";
+@use "./utils/colors";
+@use "./utils/mixins";
+
+.menus {
+    background-color: #f6f6f6;
+    margin-bottom: 2rem;
+
+
+
+    & h2 {
+        margin: 1rem;
+
+        @media (max-width:950px) {
+            margin: 2rem;
+        }
+    }
+
+
+    & .menus__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+
+        @media (max-width: variables.$breakpoint) {
+            grid-template-columns: repeat(1, 1fr);
+            width: 91%;
+            margin-left: 1rem;
+            padding-bottom: 3rem;
+            margin-bottom: -2rem;
+
+        }
+
+
+
+        .new {
+            position: relative;
+        }
+
+        .new::before {
+            content: "Nouveau";
+            position: absolute;
+            height: 2rem;
+            width: 5.5rem;
+            background-color: #99E2D0;
+            display: grid;
+            place-items: center;
+            right: 1rem;
+            top: 1rem;
+            font-weight: 500;
+            color: #199577;
+
+        }
+
+
+    }
+
+
+    & .card {
+        &__image {
+            background-size: cover;
+            border-radius: 1rem 1rem 0rem 0rem;
+
+            img {
+                width: 100%;
+                height: 35vh;
+                object-fit: cover;
+                object-position: center;
+                display: block;
+                border-radius: 1rem 1rem 0rem 0rem;
+
+            }
+
+            @media (max-width: 950px) {
+
+                img {
+                    width: 100%;
+                    height: 22vh;
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;
+                    border-radius: 1rem 1rem 0rem 0rem;
+
+                }
+
+            }
+        }
+
+
+
+        &__description {
+            position: relative;
+            background-color: white;
+            border-radius: 0 0 1rem 1rem;
+
+            h3,
+            p {
+                padding: 0.4em;
+
+            }
+
+
+            p {
+                margin: 0.5rem;
+            }
+
+
+            i {
+                font-size: 2rem;
+                position: absolute;
+                transform: translateY(-50%);
+                right: 1rem;
+                top: 2rem;
+            }
+
+            .fas {
+                color: transparent;
+                background-clip: text;
+                -webkit-background-clip: text;
+                opacity: 0;
+                transition: all 200ms ease-in-out;
+                @include mixins.gradient(1);
+
+            }
+
+            &:hover .fas {
+                opacity: 1;
+
+            }
+
+            @keyframes stage {
+                0% {
+                    transform: translateY(50%);
+                    opacity: 0;
+                }
+
+                100% {
+                    transform: TranslateY(0);
+                    opacity: 1;
+                    -webkit-transform: TranslateY(0);
+                    -moz-transform: TranslateY(0);
+                    -ms-transform: TranslateY(0);
+                    -o-transform: TranslateY(0);
+                }
+            }
+
+        }
+    }
+
+}

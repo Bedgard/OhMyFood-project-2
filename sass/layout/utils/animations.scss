@@ -1,0 +1,39 @@
+@mixin turnover {
+
+    @keyframes turnover {
+
+        0% {
+            transform: rotate(-270deg);
+            -webkit-transform: rotate(-270deg);
+            -moz-transform: rotate(-270deg);
+            -ms-transform: rotate(-270deg);
+            -o-transform: rotate(-270deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+        }
+
+    }
+
+}
+
+
+@keyframes stage {
+
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: TranslateY(0);
+        opacity: 1;
+
+    }
+
+}

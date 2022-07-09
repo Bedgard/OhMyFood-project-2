@@ -1,0 +1,63 @@
+/**la mixin pour les boutons**/
+
+@mixin gradient($opacity :0.9) {
+    background-image: linear-gradient(to top, rgba(147, 86, 220, $opacity), rgba(255, 121, 218, $opacity));
+
+}
+
+@mixin base-shadow {
+    box-shadow: 2px 1px 8px -3px #000000;
+
+}
+
+@mixin zoom {
+    transform: scale(1.02);
+
+}
+
+
+
+
+/**La mixin coeur**/
+@mixin heart-animation {
+
+    main {
+
+        position: relative;
+
+        i {
+            font-size: 2rem;
+            position: absolute;
+            transform: translateY(-50%);
+            right: 1rem;
+            top: 2rem;
+            position: absolute;
+        }
+
+        .fas {
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            opacity: 0;
+            transition: all 200ms ease-in-out;
+            @include mixins.gradient(1);
+
+        }
+
+        &:hover .fas {
+            opacity: 1;
+            transform: scale (1.2);
+
+        }
+
+    }
+
+}
+
+/**l'animation élision**/
+
+@mixin reduction {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

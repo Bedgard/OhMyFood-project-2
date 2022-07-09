@@ -1,13 +1,12 @@
 /* EXPLORER */
-@use "./utils/box-shadow";
-@use "./utils/zoom";
+@use "./utils/mixins";
 
 .explorer {
   text-align: center;
-
+  background-color: #F6F6F6;
+  padding-bottom: 2rem;
 
   & h2 {
-    margin-top: 2rem;
     font-size: 2rem;
   }
 
@@ -20,18 +19,73 @@
     border-radius: 2rem;
     color: white;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1rem 2rem;
-    background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+    @include mixins.gradient(0.9);
     transition: transform 200ms;
     margin-top: 1rem;
-    @include box-shadow.base-shadow;
+    @include mixins.base-shadow;
+    margin-top: 2rem;
+
   }
 
   & button:hover {
-    @include zoom.zoom;
+    @include mixins.zoom;
     cursor: pointer;
     opacity: 0.9;
 
+  }
+}
+
+.loader {
+  position: fixed;
+  background-color: #F6F6F6;
+  height: 100vh;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.9;
+  animation: clear 1s 3s forwards;
+  -webkit-animation: clear 1s 3s forwards;
+  transform-origin: top;
+  display: grid;
+  place-items: center;
+
+  &::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-top: 5px solid black;
+    border-radius: 50%;
+    animation: spin 4s infinite forwards;
+  }
+
+  @keyframes clear {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(0);
+
+    }
+  }
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(-900deg);
+    -webkit-transform: rotate(-900deg);
+    -moz-transform: rotate(-900deg);
+    -ms-transform: rotate(-900deg);
+    -o-transform: rotate(-900deg);
+  }
+
+  100% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
   }
 }
