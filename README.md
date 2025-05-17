@@ -8,10 +8,10 @@
 ## 🚀 Project Overview
 
 Ohmyfood! is a handcrafted, pixel-perfect restaurant website, built mobile-first using **HTML5** and **Sass (SCSS)** without any JavaScript.  
-The code is clean, semantic, and fully validated:
+The Sass stylesheets are compiled to CSS, which is clean, semantic, and fully validated:
 
 - ✅ [HTML Validator](https://validator.w3.org/nu/?doc=https://bedgard.github.io/ohmyfood/index.html)  
-- ✅ [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://bedgard.github.io/ohmyfood/css/style.css)
+- ✅ [CSS Validator (compiled from Sass)](https://jigsaw.w3.org/css-validator/validator?uri=https://bedgard.github.io/ohmyfood/css/style.css)
 
 I implemented smooth CSS animations and interactive menu effects purely with CSS and HTML.
 
@@ -29,7 +29,7 @@ I implemented smooth CSS animations and interactive menu effects purely with CSS
 
 ## 📂 Project Structure
 
-hmyfood/
+ohmyfood/
 ├── images/ # All images and icons
 ├── sass/ # SCSS partials and utilities
 ├── index.html # Homepage
@@ -42,3 +42,4 @@ hmyfood/
 
 See the project live:  
 👉 [Open OhMyFood Live Demo](https://bedgard.github.io/ohmyfood/)
+
