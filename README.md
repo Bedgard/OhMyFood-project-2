@@ -1,37 +1,43 @@
 # 🍽️ Ohmyfood! — A Modern, Mobile-First Restaurant Experience
 
-[![Made with HTML5](https://img.shields.io/badge/Made_with-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
-[![Made with Sass](https://img.shields.io/badge/Made_with-Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)  
-[![Responsive Design](https://img.shields.io/badge/Responsive-Mobile--First-brightgreen?style=for-the-badge)](#)  
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live--Demo-blue?style=for-the-badge&logo=github)](https://bedgard.github.io/ohmyfood/)  
+[![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[![Sass](https://img.shields.io/badge/Sass-%23CC6699.svg?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)  
+[![Responsive Design](https://img.shields.io/badge/Responsive-Design-blue?style=for-the-badge)](#)  
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge&logo=github)](https://pages.github.com/)
 
 ---
 
 ## 🚀 Project Overview
 
-**Ohmyfood!** is a fully responsive, **mobile-first web app** that lets users browse gourmet restaurant menus and pre-order meals — built **without a single line of JavaScript**.  
-This project showcases clean HTML & SCSS skills combined with smooth CSS animations.
+Ohmyfood! is a handcrafted, pixel-perfect recreation of a restaurant website designed to deliver a seamless mobile-first experience.  
+Built with **HTML5** and **Sass (SCSS)**, the project focuses on semantic markup, modular styles, and zero JavaScript.  
+I implemented smooth CSS animations and dynamic menu reveal effects purely with CSS and HTML.
 
 ---
 
-## 🎯 Key Features
+## 🎯 What I Built
 
-- 🌀 **Smooth Loader Animation** — A sleek CSS-driven spinner that welcomes users  
-- 🍽️ **Dynamic Menu Reveal** — Menus elegantly fade in, making browsing a delight  
-- ❤️ **Pure CSS Like Button** — Interactive heart toggle with charming animations  
-- 📱 **Mobile-First Responsive Design** — Perfectly adapts from smartphones to desktops  
-- ⚡ **Zero JavaScript** — All interactivity powered by semantic HTML and CSS magic  
+- 🌀 **Custom Loader Animation**: Created a CSS keyframes spinner that provides visual feedback during page loads.  
+- 🍽️ **Dynamic Menu Reveal**: Implemented menus that fade in with CSS transitions, enhancing user engagement without JS.  
+- ❤️ **Pure CSS Like Button**: Designed an interactive heart-shaped toggle button that animates on click using only CSS.  
+- 📱 **Mobile-First Responsive Design**: Developed fully responsive layouts that adapt fluidly from small mobile screens to desktops using media queries and flexible units.  
+- ⚡ **No JavaScript**: Achieved all interactive behaviors and animations with semantic HTML and CSS only, respecting project constraints.
+
+---
 
 ## 📂 Project Structure
 
 ohmyfood/
-├── images/ # Images & icons
-├── sass/ # Styles (partials & utils)
-├── index.html # Homepage
-├── restaurant-*.html # 4 restaurant menu pages
-└── README.md # Documentation
+├── images/ # All images, icons, and animated GIFs
+├── sass/ # SCSS partials and utilities
+├── index.html # Homepage with main navigation and hero section
+├── restaurant-*.html # Four separate restaurant menu pages with dynamic effects
+└── README.md # This documentation file
+
+---
 
 ## 🚀 Live Demo
 
-Experience the project in action:  
-👉 [Open OhMyFood Live Demo](https://ton-site-ou-ta-page-demo.com)  
+See the project live in your browser:  
+👉 [Open OhMyFood Live Demo](https://bedgard.github.io/ohmyfood/)
+
