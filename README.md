@@ -1,66 +1,37 @@
-# 🍽️ Ohmyfood! – Réservez vos papilles
+# 🍽️ Ohmyfood! — A Modern, Mobile-First Restaurant Experience
 
-> *Un projet HTML/CSS qui a du goût, sans une seule ligne de JavaScript.*
-
----
-
-## 🧠 Concept
-
-Bienvenue sur **Ohmyfood!**, la vitrine numérique d’un futur service de commande gastronomique en ligne.  
-Imaginez : vous flânez dans les ruelles de Paris, vous avez faim, mais pas envie de perdre du temps à faire la queue…  
-Ohmyfood vous propose une solution : **explorez les menus de restaurants tendances, personnalisez votre plat, et régalez-vous.**
-
-Ce projet a été concocté avec soin dans le cadre de la formation **Développeur Web** chez [OpenClassrooms](https://openclassrooms.com/).
+[![Made with HTML5](https://img.shields.io/badge/Made_with-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[![Made with Sass](https://img.shields.io/badge/Made_with-Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)  
+[![Responsive Design](https://img.shields.io/badge/Responsive-Mobile--First-brightgreen?style=for-the-badge)](#)  
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live--Demo-blue?style=for-the-badge&logo=github)](https://bedgard.github.io/ohmyfood/)  
 
 ---
 
-## 🧰 À la carte (technique)
+## 🚀 Project Overview
 
-- 🧱 **HTML5** : une structure solide et bien pensée  
-- 🎨 **SCSS** : pour des styles propres, modulaires, et évolutifs  
-- 💃 **Animations CSS** : pour faire danser les boutons et faire apparaître les plats comme par magie  
-- 🧪 **Mobile-first** : design pensé pour les gourmets pressés sur smartphone  
+**Ohmyfood!** is a fully responsive, **mobile-first web app** that lets users browse gourmet restaurant menus and pre-order meals — built **without a single line of JavaScript**.  
+This project showcases clean HTML & SCSS skills combined with smooth CSS animations.
 
 ---
 
-## 🚦 Fonctionnalités animées
+## 🎯 Features
 
-| Élément              | Animation                                             |
-|----------------------|--------------------------------------------------------|
-| Loader de démarrage  | Une animation de chargement simule le lancement d’une app |
-| Menus de restaurants | Les plats s'affichent avec un effet “fade-in” séquentiel |
-| Boutons "❤️"         | Liker un plat déclenche une animation douce et fluide  |
-
-> 🍷 Tout est en **CSS uniquement**, sans JavaScript. Un défi relevé avec saveur.
-
----
-
-## 📸 Un avant-goût visuel
-
-![aperçu](./images/ohmyfood-preview.jpg)
+| Feature                | Description                                                      |
+|------------------------|------------------------------------------------------------------|
+| 🌀 **Loader Animation**  | Stylish CSS keyframe animation simulating app loading           |
+| 🍽️ **Animated Menus**   | Menu items fade in sequentially to delight the user             |
+| ❤️ **CSS Like Button**   | Heart-shaped toggle button animated purely with CSS             |
+| 📱 **Mobile-First Design** | Optimized for all screen sizes, from phones to desktops          |
+| ⚡ **No JavaScript**      | All interactivity & animations powered solely by HTML & CSS     |
 
 ---
 
-## 🗺️ Arborescence rapide
+## 📂 Project Structure
 
-📁 ohmyfood/
-├── 📷 images/
-├── 🎨 sass/
-│ ├── utils/
-│ ├── base/
-│ ├── layout/
-│ └── pages/
-├── 📄 index.html
-├── 📄 restaurant-*.html
-└── 📘 README.md
+ohmyfood/
+├── images/ # Images & icons
+├── sass/ # Styles (partials & utils)
+├── index.html # Homepage
+├── restaurant-*.html # 4 restaurant menu pages
+└── README.md # Documentation
 
-
----
-
-## 🍴 Déguster en local
-
-1. Clonez le projet :
-
-   ```bash
-   git clone https://github.com/Bedgard/ohmyfood.git
-   cd ohmyfood
