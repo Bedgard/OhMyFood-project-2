@@ -39,9 +39,7 @@ ohmyfood/
 ## Live Demo
 
 Experience the site live here:  
-**→ [Open the Ohmyfood Live Demo](https://bedgard.github.io/ohmyfood/)**
-
----
+**→ [Open the Ohmyfood Live Demo](https://bedgard.github.io/OhMyFood-project-3/)**
 
 ## Notes
 
