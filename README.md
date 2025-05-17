@@ -7,6 +7,14 @@
 </p>
 
 ---
+## Project Introduction
+
+Ohmyfood is a modern, responsive restaurant website designed with a mobile-first approach.  
+The goal of this project is to create a visually appealing, user-friendly digital menu experience that works flawlessly on all devices — from smartphones to desktops.
+
+Built entirely with semantic HTML5 and Sass (SCSS) for styling, this project avoids any JavaScript, demonstrating how CSS animations and interactions alone can create engaging, dynamic user interfaces.
+
+This project highlights clean, maintainable code, smooth CSS animations, and a focus on accessibility and responsive design best practices.
 
 ## Features
 
