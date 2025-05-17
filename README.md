@@ -1,40 +1,56 @@
-# 🍽️ Ohmyfood! — A Modern, Mobile-First Restaurant Experience
+# Ohmyfood! — A Modern Mobile-First Restaurant Showcase
 
-[![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
-[![Sass](https://img.shields.io/badge/Sass-%23CC6699.svg?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
-
----
-
-## 🚀 Project Overview
-
-Ohmyfood! is a handcrafted, pixel-perfect restaurant website, built mobile-first using **HTML5** and **Sass (SCSS)** without any JavaScript.  
-The Sass stylesheets are compiled to CSS, which is clean, semantic, and fully validated. I implemented smooth CSS animations and interactive menu effects purely with CSS and HTML.
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML5 logo" height="60" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass logo" height="60" />
+</p>
 
 ---
 
-## 🎯 What I Built
+## Features
 
-- 🌀 **Custom Loader Animation**: A CSS keyframes spinner for loading feedback  
-- 🍽️ **Dynamic Menu Reveal**: CSS transitions for smooth menu fade-ins  
-- ❤️ **Pure CSS Like Button**: Heart toggle animation without JS  
-- 📱 **Mobile-First Responsive Design**: Fluid layouts for all screen sizes  
-- ⚡ **No JavaScript**: All interaction via semantic HTML and CSS
+### • Custom Loading Animation  
+Elegant animated loader using pure CSS keyframes for initial feedback.
+
+### • Interactive Menu Reveal  
+Staggered fade-in of menu items using CSS transitions and delays for a smooth visual experience.
+
+### • CSS-Based "Like" Button  
+Heart-shaped toggle animation with no scripts required — purely CSS.
+
+### • Fully Responsive Layout  
+Mobile-first approach with fluid grid and layout adjustments for tablets and desktops.
+
+### • No JavaScript  
+Every interactive effect, from animations to toggles, is implemented using only HTML and CSS.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ohmyfood/
-├── images/ # All images and icons
-├── sass/ # SCSS partials and utilities
-├── index.html # Homepage
-├── restaurant-*.html # Restaurant menu pages
-└── README.md # Documentation
+├── images/ # All visual assets (photos, icons, logos)
+├── sass/ # SCSS partials, variables, and mixins
+├── index.html # Main landing page
+├── restaurant-*.html # Individual restaurant menu pages
+└── README.md # Project documentation
+
+## Live Demo
+
+Experience the site live here:  
+**→ [Open the Ohmyfood Live Demo](https://bedgard.github.io/ohmyfood/)**
 
 ---
 
-## 🚀 Live Demo
+## Notes
 
-See the project live:  
-👉 [Open OhMyFood Live Demo](https://bedgard.github.io/ohmyfood/)
+- Sass was compiled into optimized, maintainable CSS.
+- The BEM naming convention is used for CSS classes.
+- Performance and accessibility were considered during development.
 
+---
+
+## Author
+
+Developed by [bedgard](https://github.com/bedgard) as part of a front-end learning project.
