@@ -16,6 +16,18 @@ Built entirely with semantic HTML5 and Sass (SCSS) for styling, this project avo
 
 This project highlights clean, maintainable code, smooth CSS animations, and a focus on accessibility and responsive design best practices.
 
+## Table of Contents
+
+- [Project Introduction](#project-introduction)  
+- [Features](#features)  
+- [Project Structure](#project-structure)  
+- [Installation](#installation)  
+- [Live Demo](#live-demo)  
+- [Notes](#notes)  
+- [Author](#author)  
+
+---
+
 ## Features
 
 ### • Custom Loading Animation  
