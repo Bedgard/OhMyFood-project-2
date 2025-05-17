@@ -14,17 +14,13 @@ This project showcases clean HTML & SCSS skills combined with smooth CSS animati
 
 ---
 
-## 🎯 Features
+## 🎯 Key Features
 
-| Feature                | Description                                                      |
-|------------------------|------------------------------------------------------------------|
-| 🌀 **Loader Animation**  | Stylish CSS keyframe animation simulating app loading           |
-| 🍽️ **Animated Menus**   | Menu items fade in sequentially to delight the user             |
-| ❤️ **CSS Like Button**   | Heart-shaped toggle button animated purely with CSS             |
-| 📱 **Mobile-First Design** | Optimized for all screen sizes, from phones to desktops          |
-| ⚡ **No JavaScript**      | All interactivity & animations powered solely by HTML & CSS     |
-
----
+- 🌀 **Smooth Loader Animation** — A sleek CSS-driven spinner that welcomes users  
+- 🍽️ **Dynamic Menu Reveal** — Menus elegantly fade in, making browsing a delight  
+- ❤️ **Pure CSS Like Button** — Interactive heart toggle with charming animations  
+- 📱 **Mobile-First Responsive Design** — Perfectly adapts from smartphones to desktops  
+- ⚡ **Zero JavaScript** — All interactivity powered by semantic HTML and CSS magic  
 
 ## 📂 Project Structure
 
