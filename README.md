@@ -31,25 +31,7 @@ ohmyfood/
 ├── restaurant-*.html # 4 restaurant menu pages
 └── README.md # Documentation
 
-## 📸 Project Screenshots
+## 🚀 Live Demo
 
-<p align="center">
-  <img src="images/homepage.png" alt="Homepage" width="600" />
-</p>
-<div align="center" style="border-top: 1px solid #ccc; width: 600px; margin: 5px auto 20px auto;">
-  <em>Homepage: clean, responsive, and welcoming</em>
-</div>
-
-<p align="center">
-  <img src="images/restaurant1.png" alt="Restaurant 1 Menu" width="600" />
-</p>
-<div align="center" style="border-top: 1px solid #ccc; width: 600px; margin: 5px auto 20px auto;">
-  <em>Restaurant menu page with smooth CSS animations</em>
-</div>
-
-<p align="center">
-  <img src="images/menu-animation.gif" alt="Menu Animation" width="600" />
-</p>
-<div align="center" style="border-top: 1px solid #ccc; width: 600px; margin: 5px auto 20px auto;">
-  <em>Animated menu loading effect</em>
-</div>
+Experience the project in action:  
+👉 [Open OhMyFood Live Demo](https://ton-site-ou-ta-page-demo.com)  
