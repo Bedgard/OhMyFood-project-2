@@ -46,8 +46,3 @@ Experience the site live here:
 - The BEM naming convention is used for CSS classes.
 - Performance and accessibility were considered during development.
 
----
-
-## Author
-
-Developed by [bedgard](https://github.com/bedgard) as part of a front-end learning project.
