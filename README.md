@@ -27,15 +27,6 @@ Every interactive effect, from animations to toggles, is implemented using only 
 
 ---
 
-## Project Structure
-
-ohmyfood/
-├── images/ # All visual assets (photos, icons, logos)
-├── sass/ # SCSS partials, variables, and mixins
-├── index.html # Main landing page
-├── restaurant-*.html # Individual restaurant menu pages
-└── README.md # Project documentation
-
 ## Live Demo
 
 Experience the site live here:  
