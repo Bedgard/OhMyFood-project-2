@@ -7,6 +7,11 @@
 </p>
 
 ---
+## Live Demo
+
+Experience the site live here:  
+**→ [Open the Ohmyfood Live Demo](https://bedgard.github.io/OhMyFood-project-3/)**
+
 ## Project Introduction
 
 Ohmyfood is a modern, responsive restaurant website designed with a mobile-first approach.  
@@ -34,11 +39,6 @@ Mobile-first approach with fluid grid and layout adjustments for tablets and des
 Every interactive effect, from animations to toggles, is implemented using only HTML and CSS.
 
 ---
-
-## Live Demo
-
-Experience the site live here:  
-**→ [Open the Ohmyfood Live Demo](https://bedgard.github.io/OhMyFood-project-3/)**
 
 ## Notes
 
