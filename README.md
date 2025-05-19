@@ -9,7 +9,7 @@
 ---
 ## Live Demo
 
-**→ [Open the Ohmyfood Live Demo](https://bedgard.github.io/OhMyFood-project-3/)**
+**→ [Open the Ohmyfood Live Demo](https://bedgard.github.io/OhMyFood-project-2/)**
 
 ## Project Introduction
 
